@@ -1,0 +1,44 @@
+/*main*/
+
+
+.container {
+    width: 100%;
+    max-width: 720px;
+    margin: 3em auto 6em auto;
+    flex: 1;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:  2em;
+}
+
+.main-header .btn-new-list{
+    background-color: blue;
+    
+}
+
+.main-header .btn-new-list:hover{
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgb(8, 8, 128);
+    color: #fff;
+}
+
+.main-header .total-list{
+    color: black;
+    font-size: 0.9em;
+    font-weight: 400;
+
+}
+
+.main-header #count-list{
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+
+
+
+
+

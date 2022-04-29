@@ -1,0 +1,44 @@
+/*table*/
+
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0 0.5rem;
+    border: 2px solid rgb(243, 194, 102);
+}
+
+table thead th{
+    background-color: white;
+    color: black;
+    opacity: 2em;
+    padding: 1em;
+    font-size: 0.9em;
+   
+    
+}
+
+table tbody td:first-child{
+    margin-top: 24px;
+
+}
+
+table tbody td {
+    background-color: #fff;
+    color: black;
+    padding: 1.2em;
+    font-weight: 700;
+}
+
+#loading-message{
+    text-align: center;
+    color: rgb(27, 26, 26);
+    margin-top: 2em;
+}
+
+
+.check{
+   
+ padding: 10px;
+ cursor: pointer;
+ margin-right: 20px;
+}
