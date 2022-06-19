@@ -4,7 +4,7 @@ table{
     width: 100%;
     text-align: center;
     border-spacing: 0 0.5rem;
-    border: 2px solid rgb(243, 194, 102);
+    
 }
 
 table thead th{
@@ -41,4 +41,49 @@ table tbody td {
  padding: 10px;
  cursor: pointer;
  margin-right: 20px;
+}
+
+
+
+@media (max-width:320px){
+    .header h1 a {
+       
+        font-size: 1em;
+   
+    }
+
+    table thead tr{
+        
+    }
+
+    table thead th{
+        width: 100px;
+        font-size: 0.8em;
+        
+    }
+
+    .main-header #count-list{
+        margin-left: 5px;
+        font-size: 1.8em;
+    }
+    
+    .main-header .btn-new-list{
+        
+        margin-left: 5px;
+    }
+
+    .main-header .total-list{
+        margin-right: 5px;
+        font-size: 1em;
+    }
+    .modal-background .modal-container{
+        
+        width:90%;
+        
+       
+        
+    }
+        
+    
+    
 }
