@@ -16,17 +16,17 @@
 }
 
 .main-header .btn-new-list{
-    background-color: blue;
-    
+    background-color: #b8bdb8;
+    color: #000;
 }
 
 .main-header .btn-new-list:hover{
     box-shadow: inset 0 0 1em gold, 0 0 1em rgb(8, 8, 128);
-    color: #fff;
+    color: #000;
 }
 
 .main-header .total-list{
-    color: black;
+    color:#fff;
     font-size: 0.9em;
     font-weight: 400;
 
